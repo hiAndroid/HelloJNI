@@ -25,6 +25,8 @@ public class MainActivity extends ActionBarActivity {
 
         Hello.testCallback();
 
+        new Hello().testCallback2();
+
     }
 
     @Override

@@ -21,7 +21,10 @@ JNIEXPORT jint JNICALL Java_taobao_com_hellojni_jni_Hello_add
  * Signature: ()V
  */
 JNIEXPORT void JNICALL Java_taobao_com_hellojni_jni_Hello_testCallback
-  (JNIEnv *, jobject);
+  (JNIEnv *, jclass);
+
+JNIEXPORT void JNICALL Java_taobao_com_hellojni_jni_Hello_testCallback2
+    (JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }
